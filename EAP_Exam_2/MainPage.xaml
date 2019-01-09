@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="EAPPractice2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EAPPractice2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image x:Name="UploadedImg" MaxWidth="1000" HorizontalAlignment="Center" Visibility="Visible"/>
+        <Button Content="Choose image to upload" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0, 0, 0, 70" Click="Choose_fileAsync"  />
+    </Grid>
+</Page>
